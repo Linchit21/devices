@@ -16,10 +16,11 @@
     padding: 75px 35px 74px;
     background: linear-gradient(to left bottom,#008BF0,#D943C9);
     text-align: left;
-    max-width: 555px;
+    width: 555px;
     border: 1px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .device__subtitle{
@@ -38,7 +39,7 @@
     margin-bottom: 7px;
 }
 
-.device__link{
+.device__link {
     color: #F4F9FC;
     text-transform: uppercase;
     font-size: 14px;
@@ -46,7 +47,9 @@
     font-weight: 400;
 }
 
-.device__img{
-    width: 195px;
-    height: 131px;
+.device__img {
+    width: 275px;
+    height: 231px;
+    position: absolute;
+    right: 0px;
 }
