@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    column-gap: 30px;
+}
+
+.device{
+    padding: 75px 35px 74px;
+    background: linear-gradient(to left bottom,#008BF0,#D943C9);
+    text-align: left;
+    max-width: 555px;
+    border: 1px;
+}
+
+.device__subtitle{
+    font-size: 16px; 
+    color: #F4F9FC;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    opacity: .6;
+}
+
+.device__title{
+    font-size: 31px;
+    color: #F4F9FC;
+    line-height: 40.3px;
+    margin-bottom: 7px;
+}
+
+.device__link{
+    color: #F4F9FC;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
