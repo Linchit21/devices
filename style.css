@@ -18,6 +18,8 @@
     text-align: left;
     max-width: 555px;
     border: 1px;
+    display: flex;
+    align-items: center;
 }
 
 .device__subtitle{
@@ -42,4 +44,9 @@
     font-size: 14px;
     text-decoration: none;
     font-weight: 400;
+}
+
+.device__img{
+    width: 195px;
+    height: 131px;
 }
